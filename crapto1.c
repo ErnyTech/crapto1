@@ -20,7 +20,7 @@
 #include "crapto1.h"
 
 #include <stdlib.h>
-#include "parity.h"
+#include <parity.h>
 
 #if !defined LOWMEM && defined __GNUC__
 static uint8_t filterlut[1 << 20];

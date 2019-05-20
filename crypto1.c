@@ -20,7 +20,7 @@
 #include "crapto1.h"
 
 #include <stdlib.h>
-#include "parity.h"
+#include <parity.h>
 
 #define SWAPENDIAN(x)\
 	(x = (x >> 8 & 0xff00ff) | (x & 0xff00ff) << 8, x = x >> 16 | x << 16)
